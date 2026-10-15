@@ -1,0 +1,398 @@
+[
+  {
+    "id": "abeler",
+    "title": "Expecting more money makes people work harder",
+    "citation": "Abeler et al. (2011)",
+    "claim": "People counted zeros in tables and chose when to stop. They worked longer when the fixed payment they might receive was €7 rather than €3, even though the amount paid for each completed task was the same.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 120,
+      "pValue": "0.046",
+      "effectSize": "0.18",
+      "design": "Participants earned money by counting zeros. A coin flip determined whether they received their earnings from the task or a fixed payment instead. That fixed payment was €7 for one group and €3 for the other.",
+      "finding": "The group that might receive €7 earned more from the counting task before stopping than the group that might receive €3.",
+      "sampleScope": "120 participants overall: 60 in HI and 60 in LO. This is the selected two-treatment comparison, not 120 per treatment.",
+      "testSidedness": "t test of the treatment coefficient in an OLS regression. One- versus two-sided testing is not explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "Reference Points and Effort Provision",
+      "summary": "The researchers ask whether what people expect to receive changes how hard they work. In a paid counting task, they changed participants’ expectations while keeping the payment for each task the same. People with higher expected payments worked longer and earned more. The authors interpret this as evidence that people judge an outcome partly against what they expected, rather than considering the amount of money alone.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.2.470"
+    }
+  },
+  {
+    "id": "ambrus",
+    "title": "Punishment can leave a group worse off",
+    "citation": "Ambrus & Greiner (2012)",
+    "claim": "People decided how much to contribute to a shared pot of money. When information about others’ contributions was sometimes wrong, allowing the usual costly punishment left players with less money overall than allowing no punishment.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 117,
+      "pValue": "0.057",
+      "effectSize": "0.31",
+      "design": "Players repeatedly decided how much to contribute to group earnings. They received imperfect information about other players’ contributions. In the selected comparison, one group could pay to reduce another player’s earnings; the other could not.",
+      "finding": "After subtracting punishment costs, players earned less when regular punishment was available. The selected two-group analysis gives p = 0.057; a broader analysis in the original paper gave approximately p = 0.05. These are different analyses.",
+      "sampleScope": "117 participants overall in the selected conditions: 57 without punishment and 60 with regular punishment, both with noise. The full original experiment included 339 participants.",
+      "testSidedness": "t test of the treatment coefficient in the two-treatment OLS regression. Sidedness is not explicitly specified; the broader original specification used an F test."
+    },
+    "abstract": {
+      "title": "Imperfect Public Monitoring with Costly Punishment: An Experimental Study",
+      "summary": "This paper studies whether letting people punish others improves cooperation and group earnings. Players repeatedly contribute to a shared fund and sometimes see inaccurate information about others’ behavior. With accurate information, stronger punishment increases net earnings. With inaccurate information, the usual punishment option lowers net earnings; a much harsher punishment option encourages cooperation, but its costs largely cancel the gains. The results depend on both information quality and punishment severity.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.7.3317"
+    }
+  },
+  {
+    "id": "bartling",
+    "title": "Seeing a worker’s track record helps both sides",
+    "citation": "Bartling et al. (2012)",
+    "claim": "In a hiring game, employers could sometimes see how much effort a worker had put in during the previous three rounds. Giving employers this information increased the total earnings created by employers and workers together.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 216,
+      "pValue": "0.007",
+      "effectSize": "0.72",
+      "design": "Employers offered workers a wage and either more or less freedom over their work. Some employers could see the worker’s effort in the previous three rounds. Others had no access to that track record.",
+      "finding": "Together, employers and workers generated 58% more earnings per round when employers could see the track record. The statistical comparison used averages for groups of participants.",
+      "sampleScope": "216 participants overall: 108 in the base treatment and 108 with screening. The statistical test uses matching-group averages rather than treating every participant as an independent observation.",
+      "testSidedness": "Wilcoxon–Mann–Whitney rank-sum test on matching-group averages. One- versus two-sided testing is not explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "Screening, Competition, and Job Design: Economic Origins of Good Jobs",
+      "summary": "The paper asks when employers offer jobs with higher pay and more freedom. Freedom can help workers be productive, but it can also let them put in less effort. In laboratory hiring games, information about workers’ past effort makes trusting, better-paid jobs profitable for employers. Competition for workers helps these jobs spread. The authors argue that both worker selection and competition help explain why some jobs offer more pay and independence than others.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.834"
+    }
+  },
+  {
+    "id": "charness",
+    "title": "Talking helps people reach a better outcome",
+    "citation": "Charness & Dufwenberg (2011)",
+    "claim": "Two people played a game in which one privately knew whether their assigned skill level was high or low. Allowing messages increased how often the low-skill player chose the option that made both people better off.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 162,
+      "pValue": "0.010",
+      "effectSize": "0.38",
+      "design": "One player decided whether to enter a joint project. The other privately knew their assigned skill level and chose what to do if the project went ahead. Researchers compared the same game with and without messages between players. The selected version was labeled (5,7).",
+      "finding": "Among low-skill players, 78% chose the action labeled “Don’t” when messages were allowed—nearly twice the rate without messages. In this game, that action allowed the outcome that benefited both players; it did not mean refusing to join the experiment.",
+      "sampleScope": "162 participants overall: 82 in the messages treatment and 80 without messages. This counts participants across both conditions, not only low-talent agents.",
+      "testSidedness": "Difference-in-proportions z test. The available report explicitly describes the original test as one-tailed; the p-value displayed here retains the published statistical-summary value of 0.010."
+    },
+    "abstract": {
+      "title": "Participation",
+      "summary": "The authors study when communication helps people cooperate despite one person having information the other lacks. In their games, one player privately knows their skill level. Messages help when even a low-skill player can participate in an outcome that benefits both people. When that possibility is removed, messages are ineffective. The paper also examines whether people tell the truth and how concerns about lying or disappointing someone might explain their choices.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.4.1211"
+    }
+  },
+  {
+    "id": "chen",
+    "title": "Feeling part of the same team raises effort",
+    "citation": "Chen & Chen (2011)",
+    "claim": "People chose how much effort to put into a group task, but the group’s result depended on its least hardworking member. Emphasizing a shared team identity led to more effort than emphasizing membership in different teams.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 72,
+      "pValue": "0.033",
+      "effectSize": "0.84",
+      "design": "Each person chose an effort level. The lowest effort in the group determined its result, so higher effort paid off only if others also worked hard. Researchers compared activities that emphasized belonging to the same group with activities that emphasized belonging to different groups.",
+      "finding": "Effort was higher when a shared group identity was emphasized. The selected two-group analysis gives p = 0.033; a broader analysis in the original paper gave p = 0.023 for the corresponding comparison.",
+      "sampleScope": "72 participants overall: 36 in Enhanced Ingroup and 36 in Enhanced Outgroup. The regression clusters standard errors by session.",
+      "testSidedness": "χ² test of the treatment indicator in a random-effects regression with session clustering. The χ² reference distribution uses its upper tail; a one- versus two-sided t-test label does not directly apply."
+    },
+    "abstract": {
+      "title": "The Potential of Social Identity for Equilibrium Selection",
+      "summary": "This paper asks whether a shared identity helps people coordinate on a better outcome. Participants play a game where everyone benefits from high effort only if others also choose high effort. Without a shared identity, groups often settle on low effort. Emphasizing a common identity, together with experience playing the game, helps groups reach higher effort. The authors use the findings to connect group identity with theories of cooperation and coordination.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2562"
+    }
+  },
+  {
+    "id": "declippel",
+    "title": "A shortlist helps people choose together",
+    "citation": "de Clippel et al. (2014)",
+    "claim": "Two people had to choose one option, but they did not fully agree on their favorites. Having one person shortlist three options and the other choose from that list produced higher combined earnings than having both veto and rank options.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 158,
+      "pValue": "0.001",
+      "effectSize": "0.12",
+      "design": "Pairs chose from five options, each giving different payments to the two players. Under “Shortlisting,” one player picked three options and the other selected one. Under “Veto-Rank,” both ruled out two options and ranked the rest. The selected comparison used a setting with partial disagreement over the top choices (Pf2).",
+      "finding": "The two players earned more in total with Shortlisting than with Veto-Rank in this selected setting.",
+      "sampleScope": "158 participants overall: 88 in Shortlisting and 70 in Veto-Rank. Participants were matched in pairs and made repeated choices; 158 is not the count of independent pairs or sessions.",
+      "testSidedness": "The selected comparison concerns aggregate payoffs under Pf2. The precise test and one- versus two-sided convention are not specified in the available statistical summary."
+    },
+    "abstract": {
+      "title": "On the Selection of Arbitrators",
+      "summary": "When two sides need someone to settle a dispute, how should they choose that person? The paper compares procedures for selecting an arbitrator when the parties have different preferences. The authors identify problems with a common procedure in which both parties rule out and rank candidates at the same time. They propose a sequential shortlist procedure and use theory and laboratory experiments to show how it can improve the joint outcome.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.11.3434"
+    }
+  },
+  {
+    "id": "duffy",
+    "title": "Money helps people trade",
+    "citation": "Duffy & Puzzello (2014)",
+    "claim": "In a six-person trading game, participants created more gains from trade when they could use money than when they traded without money.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 54,
+      "pValue": "0.010",
+      "effectSize": "0.76",
+      "design": "Participants bought and sold in a laboratory trading economy with six people. One version included money; the other did not. Researchers compared how much of the possible benefit from trade the two versions achieved (M6 versus NM6).",
+      "finding": "The six-person economy achieved a larger share of the possible gains from trade when money was available.",
+      "sampleScope": "54 participants overall in the selected original experiment, not 54 per treatment. The available statistical summary does not give the per-treatment split or independent-session count.",
+      "testSidedness": "The selected comparison tests efficiency ratios in M6 versus NM6. The precise test and its one- versus two-sided convention have not been verified."
+    },
+    "abstract": {
+      "title": "Gift Exchange versus Monetary Exchange: Theory and Evidence",
+      "summary": "The paper compares exchange using money with exchange based on giving goods now and expecting others to give later. In the theoretical setting, patient people can sustain successful exchange without money, and some such arrangements can outperform monetary exchange. In the laboratory, however, participants generally fail to establish those alternatives. Money helps people coordinate their trading behavior, and the authors find higher benefits from exchange when money is available.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735"
+    }
+  },
+  {
+    "id": "dulleck",
+    "title": "Requiring experts to solve the problem helps customers",
+    "citation": "Dulleck et al. (2011)",
+    "claim": "Customers in an expert-service game could check which service they received but could not judge which service they needed. Requiring sellers to solve the customer’s problem increased the benefits created by trade.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 168,
+      "pValue": "<0.001",
+      "effectSize": "0.72",
+      "design": "The game modeled services such as repairs, where an expert knows more than the customer about what is needed. In both selected conditions, customers could check the service provided. Only one condition required the expert to solve the customer’s problem (B/LV versus B/V).",
+      "finding": "Trade generated more of its possible benefits when experts were required to solve the problem, even though customers could check the service provided in both conditions.",
+      "sampleScope": "168 participants overall in the selected original experiment, not 168 per treatment. The available statistical summary does not give the per-treatment split or independent-group count.",
+      "testSidedness": "The selected comparison tests efficiency in B/LV versus B/V. The precise test and its one- versus two-sided convention have not been verified."
+    },
+    "abstract": {
+      "title": "The Economics of Credence Goods: An Experiment on the Role of Liability, Verifiability, Reputation, and Competition",
+      "summary": "The authors study markets where customers depend on experts to diagnose what they need, such as repairs or medical services. In laboratory markets, they vary whether experts must solve the problem, whether customers can check the service, and whether reputation or competition matters. Requiring an effective service strongly improves outcomes. Checking what was supplied matters less. Competition lowers prices and increases trade, but does not by itself ensure that customers receive appropriate services.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.2.526"
+    }
+  },
+  {
+    "id": "ericson",
+    "title": "Expecting to get a mug makes it harder to give up",
+    "citation": "Ericson & Fuster (2011)",
+    "claim": "People were told they had either an 80% or a 10% chance of getting a mug for free. Those expecting the higher chance asked for more money to give up the mug if they received it.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 112,
+      "pValue": "0.030",
+      "effectSize": "0.21",
+      "design": "Participants were assigned an 80% or a 10% chance of receiving a free mug. They stated how much money they would need in exchange for giving up the mug. The selected comparison is from Experiment 2.",
+      "finding": "The average amount requested was higher in the 80% group than in the 10% group. This quiz uses that comparison of average valuations, rather than every analysis in the paper.",
+      "sampleScope": "112 participants overall in the selected original experiment, not 112 per treatment. The available statistical summary does not give the per-treatment split.",
+      "testSidedness": "The selected outcome is mean willingness to accept in MH versus ML. The precise test and its one- versus two-sided convention have not been verified."
+    },
+    "abstract": {
+      "title": "Expectations as Endowments: Evidence on Reference-Dependent Preferences from Exchange and Valuation Experiments",
+      "summary": "The paper asks whether what people expect to own affects how they value an object. In one experiment, people given an item are more likely to keep it when they expect fewer opportunities to exchange it. In another, people with a higher chance of receiving an item demand more money to give it up. The authors interpret these results as evidence that expectations help set the benchmark people use to judge gains and losses.",
+      "url": "https://academic.oup.com/qje/article-abstract/126/4/1879/1922815"
+    }
+  },
+  {
+    "id": "fehr",
+    "title": "People value having the final say",
+    "citation": "Fehr et al. (2013)",
+    "claim": "People in a decision-making game were less willing to hand decisions to someone else when doing so exposed them to being overruled. The comparison suggests that having the final say mattered beyond its financial benefits.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 60,
+      "pValue": "0.011",
+      "effectSize": "0.45",
+      "design": "Participants could keep decision-making authority or hand it to another person. The selected conditions were designed to separate the financial benefits of delegation from the discomfort of being overruled (HIGH NOREC versus PHIGH25).",
+      "finding": "Participants handed over authority in 67.1% of decisions in HIGH NOREC and 41.3% in PHIGH25. The analysis accounted for the round in which each decision occurred.",
+      "sampleScope": "60 participants overall: 28 in HIGH NOREC and 32 in PHIGH25. The analysis includes repeated decisions and clusters standard errors by individual.",
+      "testSidedness": "Probit regression with period fixed effects and standard errors clustered by individual. The report does not explicitly state a one- versus two-sided testing convention."
+    },
+    "abstract": {
+      "title": "The Lure of Authority: Motivation and Incentive Effects of Power",
+      "summary": "The researchers study why people keep authority and how authority changes effort. Participants often retain control even when delegating would earn them more money, suggesting that control has value in itself. Those with authority put in more effort than a purely financial calculation predicts, while those without authority put in less. The paper argues that the desire for control can discourage useful delegation and reduce the benefits that a group could otherwise achieve.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.4.1325"
+    }
+  },
+  {
+    "id": "friedman",
+    "title": "Faster responses make cooperation easier",
+    "citation": "Friedman & Oprea (2012)",
+    "claim": "Two players chose whether to cooperate in a 60-second game. Cooperation was higher when they could change their choices at any moment than when they could change them only at eight scheduled times.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 78,
+      "pValue": "<0.001",
+      "effectSize": "0.64",
+      "design": "Each pair played a game where cooperating helped the other person but came at a personal cost. Both earned more if they cooperated together. Researchers compared continuous changes with changes allowed only at eight scheduled times during the 60 seconds.",
+      "finding": "Participants’ typical cooperation rate was higher when they could change their choices continuously. The displayed p < 0.001 uses the existing summary precision; an analysis of the original data gave approximately 4.0 × 10⁻¹¹.",
+      "sampleScope": "78 participants overall: 38 in Continuous and 40 in Grid-8. The selected test uses each participant’s median cooperation rate across periods.",
+      "testSidedness": "Wilcoxon–Mann–Whitney test on participant median cooperation rates. One- versus two-sided testing is not explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "A Continuous Dilemma",
+      "summary": "This paper examines whether the speed at which people can respond changes cooperation. Pairs play a game where mutual cooperation is beneficial, but each individual can gain by acting selfishly. When players can change their choices continuously during a short interaction, cooperation is much higher than when decisions occur at a small number of fixed times. The authors suggest that rapid responses make it easier to sustain cooperation.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.1.337"
+    }
+  },
+  {
+    "id": "fudenberg",
+    "title": "Bigger benefits encourage cooperation despite mistakes",
+    "citation": "Fudenberg et al. (2012)",
+    "claim": "People repeatedly chose whether to help a partner, but the computer sometimes reversed their choice by mistake. They cooperated more when helping gave the partner twice its personal cost than when it gave only one-and-a-half times the cost.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 124,
+      "pValue": "0.001",
+      "effectSize": "0.30",
+      "design": "Helping a partner cost the helper money and gave the partner a larger benefit. Players interacted repeatedly, and the computer sometimes changed an intended action into its opposite. The selected comparison increased the benefit relative to its cost from 1.5 to 2.",
+      "finding": "Across all decisions, cooperation was higher when helping produced twice its cost in benefits than when it produced one-and-a-half times its cost.",
+      "sampleScope": "124 participants overall: 72 at b/c = 1.5 and 52 at b/c = 2. The regression uses repeated decisions and clusters on both participant and interaction pair.",
+      "testSidedness": "Logistic regression testing the b/c = 1.5 treatment indicator, with clustering on participant and interaction pair. The report does not explicitly state a one- versus two-sided convention."
+    },
+    "abstract": {
+      "title": "Slow to Anger and Fast to Forgive: Cooperation in an Uncertain World",
+      "summary": "The authors study repeated cooperation when accidental mistakes can make a helpful person appear selfish. Participants cooperate more when the rewards make lasting cooperation worthwhile. They use a variety of strategies, including tolerating an occasional bad action and returning to cooperation after punishment. More patient and forgiving strategies tend to earn higher payments. The paper shows how people adapt cooperation to a setting where an unhelpful action may have been a mistake.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720"
+    }
+  },
+  {
+    "id": "huck",
+    "title": "Enforcing a promise of later pay raises later wages",
+    "citation": "Huck et al. (2011)",
+    "claim": "In a three-round employment game, workers received higher combined wages in the last two rounds when employers’ promises of future pay were enforceable than when employers could break those promises.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 120,
+      "pValue": "0.004",
+      "effectSize": "0.83",
+      "design": "Employers and workers interacted over several rounds. Researchers compared a version with enforceable promises of later wages (FCT) with one where employers could break those promises (NCT). The selected outcome was the sum of wages in rounds 2 and 3.",
+      "finding": "Combined wages in rounds 2 and 3 were higher when promises were enforceable. The displayed p = 0.004 rounds the selected test’s more precise value of 0.0039.",
+      "sampleScope": "120 participants overall. The selected test uses 12 session averages: six FCT sessions and six NCT sessions. The available report does not explicitly state the participant split.",
+      "testSidedness": "Mann–Whitney rank test on entire-session average deferred wages. One- versus two-sided testing is not explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "Deferred Compensation in Multiperiod Labor Contracts: An Experimental Test of Lazear’s Model",
+      "summary": "The paper tests the idea that paying workers less early and more later can encourage effort because workers do not want to lose future high pay. In laboratory employment relationships, the researchers compare enforceable wage promises, promises that can be broken, and wages set by a computer. They examine how these arrangements affect pay and effort, and whether an employer’s reputation can support promises even without formal enforcement.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.2.819"
+    }
+  },
+  {
+    "id": "ifcher",
+    "title": "A better mood makes waiting for money easier",
+    "citation": "Ifcher & Zarghamee (2011)",
+    "claim": "People watched either a mood-lifting film clip or a neutral one, then chose between money sooner and money later. The mood-lifting clip made people more willing to wait. The selected analysis excluded people who always valued later money as much as money now.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 58,
+      "pValue": "0.031",
+      "effectSize": "0.28",
+      "design": "After watching a film clip, participants chose between payments available sooner and payments available later. Researchers compared a positive-mood clip with a neutral one. This analysis omitted people who never reduced the value of a payment because it arrived later.",
+      "finding": "Among the participants included in this analysis, the positive-mood group was more patient about waiting for money. The selected regression is Table 3, column 5, with t ≈ 2.217.",
+      "sampleScope": "58 participants overall in the selected analysis after excluding non-discounters; the full original experiment enrolled 69. The per-treatment split among the 58 has not been verified.",
+      "testSidedness": "Two-tailed t test of the treatment coefficient in the selected regression, explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "Happiness and Time Preference: The Effect of Positive Affect in a Random-Assignment Experiment",
+      "summary": "The researchers ask whether a temporary improvement in mood changes how people choose between money now and money later. They randomly assign participants to a positive or neutral mood condition, then measure their payment choices. Those in the positive-mood condition put more value on later payments. The paper reports several checks of this result and discusses how emotions may influence decisions involving patience and the future.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109"
+    }
+  },
+  {
+    "id": "kessler",
+    "title": "Giving donors priority encourages registration",
+    "citation": "Kessler & Roth (2012)",
+    "claim": "In a game simulating organ donation, people were more likely to register as donors when registering also gave them priority to receive an organ if they later needed one.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 288,
+      "pValue": "<0.001",
+      "effectSize": "0.49",
+      "design": "Participants played a paid game that simulated organ donation and allocation; they were not registering as real organ donors. Researchers compared a rule giving registered donors priority with a rule without that priority. The selected comparison covers rounds 1–15.",
+      "finding": "Registration in the game was higher with donor priority. The displayed p < 0.001 uses the existing summary precision; an analysis limited to these conditions and rounds gave p = 1.631 × 10⁻¹⁸.",
+      "sampleScope": "288 participants overall in the selected conditions: 240 in control and 48 with priority. The analysis uses rounds 1–15 and clusters repeated decisions by participant.",
+      "testSidedness": "Linear probability regression testing the priority coefficient, with participant-clustered standard errors. The report does not explicitly state a one- versus two-sided convention."
+    },
+    "abstract": {
+      "title": "Organ Allocation Policy and the Decision to Donate",
+      "summary": "This paper asks whether rules for allocating scarce organs can encourage donor registration. In a laboratory game modeling donation and transplantation, the researchers compare allocation policies. Giving people priority if they had previously registered as donors increases registration in the game. The authors discuss how incentives built into waiting-list rules could help address a shortage of donated organs, while the experiment itself uses simulated choices rather than actual medical decisions.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.5.2018"
+    }
+  },
+  {
+    "id": "kirchler",
+    "title": "Falling asset values make pricing harder",
+    "citation": "Kirchler et al. (2012)",
+    "claim": "People traded assets in a laboratory market. Prices strayed further from the value of the assets’ expected remaining payouts when that value fell over time than when it stayed constant.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 120,
+      "pValue": "0.016",
+      "effectSize": "0.66",
+      "design": "Participants traded assets that paid money over time. In one condition, the value of the remaining expected payouts declined (T1); in another, it stayed constant (T2). Researchers measured how far trading prices were from that payout-based value.",
+      "finding": "Prices were further from payout-based value when that value declined. The measure, called relative absolute deviation (RAD), was calculated for each market.",
+      "sampleScope": "120 participants overall: 60 in T1 and 60 in T2. The statistical test uses market-level RAD, so 120 is not the number of independent market observations.",
+      "testSidedness": "Wilcoxon–Mann–Whitney test on market-level RAD. One- versus two-sided testing is not explicitly specified in the available report."
+    },
+    "abstract": {
+      "title": "Thar She Bursts: Reducing Confusion Reduces Bubbles",
+      "summary": "The paper studies why laboratory asset markets sometimes develop price bubbles. It varies how an asset’s payout-based value changes over time and how much cash traders have relative to that value. Falling values can confuse participants, who may expect an asset’s value to stay constant. Describing the asset as a gold mine that gradually runs out helps people understand the decline and substantially reduces pricing mistakes.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.865"
+    }
+  },
+  {
+    "id": "kogan",
+    "title": "Trading beforehand can make teamwork worse",
+    "citation": "Kogan et al. (2011)",
+    "claim": "A group’s result depended on the second-lowest effort chosen by its members. When members first traded assets whose payouts depended on that result, the group produced less than when there was no trading beforehand.",
+    "replicates": true,
+    "explanation": "The repeated experiment found a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 126,
+      "pValue": "<0.001",
+      "effectSize": "0.32",
+      "design": "Group members chose effort levels, and the second-lowest choice determined the group’s output. In the selected comparison from Experiment 2, some groups first traded assets linked to their own group’s later output. The comparison groups did not trade beforehand.",
+      "finding": "Groups that first traded assets linked to their own result produced less output. The displayed p < 0.001 uses the existing summary precision; the selected model’s more precise p-value was 0.000026.",
+      "sampleScope": "126 participants overall: 54 in control and 72 in the market condition. Group output is the outcome; the ordered probit includes group random effects and robust standard errors.",
+      "testSidedness": "z test of the market coefficient in an ordered probit with group random effects and Huber–White standard errors. The report does not explicitly state a one- versus two-sided convention."
+    },
+    "abstract": {
+      "title": "Coordination in the Presence of Asset Markets",
+      "summary": "The researchers ask whether trading assets before a group task changes the task’s outcome. Participants trade assets whose value depends on a later coordination game. The researchers vary how traders’ asset payments relate to their own or another group’s choices. Trading beforehand tends to reduce coordination, even in settings where assets do not create conflicting financial incentives. Market prices also predict later outcomes, suggesting that markets can both reflect and influence group behavior.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.2.927"
+    }
+  },
+  {
+    "id": "kuziemko",
+    "title": "People near the bottom hesitate to help those below",
+    "citation": "Kuziemko et al. (2014)",
+    "claim": "Six people were randomly given different amounts of money and shown their ranking. Those in second-to-last place were less likely than those in the middle to give an extra $2 to the person immediately below them.",
+    "replicates": false,
+    "explanation": "The repeated experiment did not find a statistically significant effect in the original direction for this selected comparison. This outcome does not evaluate every result in the original paper.",
+    "details": {
+      "sampleSize": 42,
+      "pValue": "0.070",
+      "effectSize": "0.28",
+      "design": "Each person in a six-person group was randomly given a different amount of money. They chose whether an extra $2 went to the person one place below or one place above them. Researchers compared second-to-last place with the three middle ranks (2–4).",
+      "finding": "People in second-to-last place were less likely to give the extra money to the person below them. The selected comparison has p = 0.070, as reported in the existing statistical summary.",
+      "sampleScope": "42 participants overall in the selected original experiment, not 42 per rank or treatment. The available statistical summary does not give counts by rank or the test’s independent-observation count.",
+      "testSidedness": "The selected comparison concerns allocations by second-to-last versus middle ranks. The precise test and its one- versus two-sided convention have not been verified."
+    },
+    "abstract": {
+      "title": "“Last-Place Aversion”: Evidence and Redistributive Implications",
+      "summary": "The paper examines whether people particularly dislike being last. In laboratory games, participants at the bottom take risks they reject at other ranks, while people just above the bottom hesitate to give money to the person below them. The authors also examine survey patterns in support for minimum-wage increases and redistribution. They argue that fear of falling into last place may help explain why some people with low incomes oppose policies benefiting those below them.",
+      "url": "https://doi.org/10.1093/qje/qjt035"
+    }
+  }
+]

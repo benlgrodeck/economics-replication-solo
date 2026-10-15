@@ -10,3 +10,5 @@
 .paper-details + .paper-details { margin-top: 12px; }
 
 .solo-tools{margin-top:28px}.solo-tools button{padding:10px 16px}header .brand{font-size:20px}main{max-width:960px}.question h1{font-size:clamp(30px,4vw,48px)}.result-card{margin:24px 0}.result-card h2{margin-bottom:10px}.progress{margin-bottom:24px}.history-title{min-width:180px}
+
+.leaderboard-card{margin-top:32px}.leaderboard-card h2{margin:0}.leaderboard-card input{max-width:420px}.leaderboard-card [role=status]{overflow-wrap:anywhere}

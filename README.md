@@ -21,3 +21,7 @@ Points = 100 × [1 − (p − y)²]. The confidence maps to p directly for a rep
 GitHub Pages serves the static files in this repository. Unlike the synchronized classroom edition, this game needs no server or database. Outcomes are present in the downloaded dataset, so this is a learning activity rather than a secure assessment. No student data is submitted to a game server.
 
 For local testing, serve this folder with a static HTTP server.
+
+## Shared leaderboard
+
+One public leaderboard is prepared for everyone. Players may voluntarily submit an alias after all 18 questions. Points are recomputed by the database, and only the first submitted score per anonymous browser identity is retained. See [activation instructions](backend/README.md). Until a Supabase project is connected in `leaderboard-config.js`, the leaderboard clearly displays a setup message and the solo game continues to work.

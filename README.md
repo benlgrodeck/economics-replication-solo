@@ -24,4 +24,4 @@ For local testing, serve this folder with a static HTTP server.
 
 ## Shared leaderboard
 
-One public leaderboard is active for everyone. Players may voluntarily submit an alias after all 18 questions. Points are recomputed by the database, and only the first submitted score per anonymous browser identity is retained. See [activation instructions](backend/README.md). The connected Supabase Free project validates and stores public scores. The public project URL and publishable key are in `leaderboard-config.js`; no privileged keys are stored in this repository.
+One public leaderboard is active for everyone. Players enter a name or nickname before starting. After all 18 questions, that name is prefilled for voluntary public score submission. Points are recomputed by the database, and only the first submitted score per anonymous browser identity is retained. See [activation instructions](backend/README.md). The connected Supabase Free project validates and stores public scores. The public project URL and publishable key are in `leaderboard-config.js`; no privileged keys are stored in this repository.
